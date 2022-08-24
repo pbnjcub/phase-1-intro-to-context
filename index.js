@@ -93,4 +93,4 @@ function createEmployeeRecord(arr) {
     return grandTotalOwed
   }
 
-  let grandTotalOwed = employees.reduce((m, e) => m + allWagesFor(e), 0)
+//   let grandTotalOwed = employees.reduce((m, e) => m + allWagesFor(e), 0)
